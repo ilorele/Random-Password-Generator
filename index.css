@@ -1,0 +1,141 @@
+@font-face {
+    font-family: "Karla";
+    src: url(./Fonts/Karla/Karla-VariableFont_wght.ttf);
+}
+
+body {
+    background-color: #1F2937;
+}
+
+section {
+    font-family: Inter, sans-serif;
+    width: 90vw;
+    max-width: 500px;
+    margin: auto;
+}
+
+.header-container {
+    font-family: Karla;
+    font-size: 40px;
+}
+
+.upper-header {
+    color: white;
+    font-weight: 900;
+}
+
+.lower-header {
+    color: #4ADF86;
+    font-weight: 900;
+}
+
+.description {
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.label {
+    color: #FFFFFF;
+}
+
+.toggle-btns-container {
+    margin: 20px 0;
+}
+
+.toggle-numbers-btn,
+.toggle-symbols-btn {
+    width: 150px;
+    border: none;
+    border-radius: 4px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.toggle-numbers-btn:hover,
+.toggle-symbols-btn:hover {
+    background-color: hsl(0, 0%, 90%);
+}
+
+.toggle-btn-off {
+    background-color: hsl(0, 0%, 30%);
+    color: #FFFFFF;
+}
+
+.toggle-btn-off:hover {
+    background-color: hsl(0, 0%, 50%);
+}
+
+.divider {
+    border: none;
+    border-top: 1px solid #2F3E53;
+    margin: 30px 0;
+}
+
+.generate-passowords-btn {
+    font-size: 16px;
+    width: 192px;
+    height: 52px;
+    color: #FFFFFF;
+    background-color: hsl(160, 84%, 39%);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.generate-passowords-btn:hover {
+    background-color: hsl(160, 84%, 35%);
+}
+
+.generate-passowords-btn:active {
+    background-color: hsl(160, 84%, 39%);
+}
+
+.password-btns-container-hidden {
+    display: none;
+}
+
+.password-btns-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-button-container, 
+.second-button-container {
+    position: relative;
+}
+
+#first-password-tooltip,
+#second-password-tooltip {
+    position: absolute;
+}
+
+.first-password,
+.second-password {
+    width: 221px;
+    height: 39px;
+    color: #55F991;
+    background-color: hsl(215, 30%, 22%);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.first-password:hover,
+.second-password:hover {
+    background-color: hsl(215, 30%, 18%);
+}
+
+.first-password:active,
+.second-password:active {
+    background-color: hsl(215, 30%, 22%);
+}
+
+.password-tooltip {
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    background-color: grey;
+    color: #FFFFFF;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
